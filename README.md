@@ -1,0 +1,2 @@
+# TAREA-6
+PARCIAL 2
