@@ -22,7 +22,6 @@ PARCIAL 2
 
 #### CAPITULO 11 
 
-![image](https://user-images.githubusercontent.com/105671763/178368803-ec41727b-6fc3-4787-84cd-599b3abc48ee.png)
 
 #### CAPITULO 12 
 
