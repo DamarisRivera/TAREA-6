@@ -37,6 +37,7 @@ PARCIAL 2
 ![image](https://user-images.githubusercontent.com/105671763/178642698-f0b433a8-59a2-4b4b-9d58-2162ad5a0897.png)
 ![image](https://user-images.githubusercontent.com/105671763/178642747-c17342fc-1081-482a-b331-28c8ee0a5598.png)
 ![image](https://user-images.githubusercontent.com/105671763/178644449-5dfa47e8-f2d6-40de-a922-bab2e373f645.png)
+![image](https://user-images.githubusercontent.com/105671763/178648180-bffadb24-b98b-4554-b7ce-8598735a4ca6.png)
 
 ## 3. Explicación y resolución de ejercicios 
 
