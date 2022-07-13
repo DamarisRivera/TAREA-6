@@ -85,7 +85,7 @@ PARCIAL 2
 
 ##### *SECCIÓN 11-5 	 La fórmula de la onda seno*
 
-##### 16. Cierta onda seno tiene un cruce por cero hacia positivo en 0° y valor rms de 20 V. Calcule su valor instantáneo en cada uno de los siguientes ángulos:
+##### 16. Cierta onda seno tiene un cruce por cero hacia positivo en 0° y valor rms de 20 V. Calcule su valor instantáneo en cada uno de los siguientes ángulos:
 
 	(a) 15°
 	(b) 33°
@@ -110,7 +110,7 @@ PARCIAL 2
 
 ##### *SECCIÓN 11-6 	  Introducción a los fasores*
 
-##### 22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
+##### 22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
 
 ![image](https://user-images.githubusercontent.com/105671763/178633761-7d3c39fc-8529-4be3-b6de-1d07659e5fde.png)
 
@@ -141,7 +141,7 @@ PARCIAL 2
 
 ##### 30. ¿Cuánto voltaje de cd se debe agregar a una onda seno de 3 V rms para hacer el voltaje resultante no alterno (valores negativos)?
 
-##### 32. La figura 11-83 muestra una fuente de voltaje sinusoidal dispuesta en serie con una fuente de cd. Efectivamente, los dos voltajes están superpuestos. Determine la disipación de potencia en el resistor de carga.
+##### 32. La figura 11-83 muestra una fuente de voltaje sinusoidal dispuesta en serie con una fuente de cd. Efectivamente, los dos voltajes están superpuestos. Determine la disipación de potencia en el resistor de carga.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634602-45346f94-f9b5-4fe0-894f-10fa506209f9.png)
 
