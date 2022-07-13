@@ -29,6 +29,8 @@ PARCIAL 2
 ![image](https://user-images.githubusercontent.com/105671763/178413898-3a6f2a52-ffad-4acc-abfa-6ac27904dabb.png)
 ![image](https://user-images.githubusercontent.com/105671763/178417722-e20b457f-b3aa-4bfc-a75b-d6a8f611cbc5.png)
 ![image](https://user-images.githubusercontent.com/105671763/178420430-a3d55110-e9a5-4b82-b73b-9b8356c9a205.png)
+![image](https://user-images.githubusercontent.com/105671763/178628701-e6c67768-104b-447d-945e-fb0143d4ed46.png)
+![image](https://user-images.githubusercontent.com/105671763/178630056-476d0c87-2760-410a-8177-addbbb79e000.png)
 
 #### CAPITULO 12 
 
