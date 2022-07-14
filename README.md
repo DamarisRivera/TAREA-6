@@ -53,17 +53,33 @@ PARCIAL 2
 ##### 2. Calcule el periodo de cada uno de los siguientes valores de frecuencia:
 
 	(a) 1 Hz 
+	    T = 1/f = 1/1 Hz = 1 s
+	    
 	(b) 60 Hz 
+	    T = 1/f = 1/60 Hz = 0.0167 s
+	    
 	(c) 500 Hz 
+	    T = 1/f = 1/500 Hz = 2x10^(-3) s
+	    
 	(d) 1 kHz 
+	    T = 1/f = 1/1 kHz = 1 ms
+	    
 	(e) 200 kHz 
+	    T = 1/f = 1/200 kHz = 5x10^(-3) ms
+	    
 	(f) 5 MHz
-	
+	    T = 1/f = 1/5 MHz = 1/5000000 Hz = 2x10^(-7) s
+	    
 ##### 4. Una onda seno tiene frecuencia de 50 kHz. ¿Cuántos ciclos completa en 10 ms?
+
+	T = 1/f = 1/50 khz = 0.02 ms 
+	f= 1/T = 1/10 ms = 0.1 kHz
 
 ##### *SECCIÓN 11-2 	 Fuentes de voltaje sinusoidal*
 
 ##### 6. Cierto generador de cuatro polos gira a 3600 rpm. ¿Cuál es la frecuencia del voltaje que produce?
+
+	
 
 ##### *SECCIÓN 11-3 	 Valores sinusoidales de voltaje y corriente*
 
