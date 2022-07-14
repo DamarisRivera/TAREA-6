@@ -12,11 +12,13 @@ PARCIAL 2
   
 ### 1.1 Objetivo General
         
-
+Analizar y resolver problemas utilizando los conocimientos de los capítulos respectivos a la corriente y voltaje de forma alterna y como funcionan los capacitores, usando la teoría para la correcta aplicación de los temas en los ejercicios prácticos.
 	
 ### 1.2 Objetivos Específicos
         
-
+- Desarrollar mapas mentales donde se explique los conceptos básicos de cada capítulo.
+- Resolver los problemas planteados dentro de cada capítulo.
+- Comprender como aplicar los conceptos dentro de los ejercicios prácticos.
 	
 ## 2. Marco Teórico
 
@@ -79,32 +81,72 @@ PARCIAL 2
 
 ##### 6. Cierto generador de cuatro polos gira a 3600 rpm. ¿Cuál es la frecuencia del voltaje que produce?
 
-	
+	3600 rpm = 60 rps 
+	f = 2(60)(rps) = 120 Hz 
 
 ##### *SECCIÓN 11-3 	 Valores sinusoidales de voltaje y corriente*
 
 ##### 8. El valor pico de una onda seno es de 12 V. Determine los siguientes valores:
 
 	(a) rms 
-	(b) pico a pico 
+	    Vrms = 0.707*Vp
+	    Vrms = 0.707(12) = 8.484 v
+	    
+	(b) pico a pico
+	    Vpp = 2*Vp 
+	    Vpp = 2(12) = 24 v
+	    
 	(c) promedio 
+	    Vprom = 0.637*Vp 
+	    Vprom = 0.637(12) = 7.644 v
 	
 ##### 10. Para la onda seno de la figura 11-77, determine los valores pico, pico a pico, rms y promedio.
 
 ![image](https://user-images.githubusercontent.com/105671763/178630968-b1f25cc4-0338-486d-b6f4-fd0f1b9b91c2.png)
+
+	Vp1 = 25 v
+	Vp2 = -25 v
+	Vpp = 2*Vp = 2*25= 50 v
+	Vrms = 0.707*Vp = 0.707*25 = 17.675 v
+	Vprom = 0.637*Vp = 0.637*25 = 15.925 v
 
 ##### *SECCIÓN 11-4 	 Medición angular de una onda seno*
 
 ##### 12. Cambie los siguientes valores angulares de radianes a grados:
 
 	(a) π/8 rad 
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(π/8 rad )
+		grados = 22.5°
+		
 	(b) π/3 rad 
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(π/3 rad)
+		grados = 60°
+		
 	(c) π/2 rad
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(π/2 rad)
+		grados = 90°
+		
 	(d) 3π/5 rad 
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(3π/5 rad)
+		grados = 108°
+		
 	(e) 6π/5 rad 
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(6π/5 rad)
+		grados = 216°
+		
 	(f) 1.8π rad
+		grados = (180°/π rad)x rad
+		grados = (180°/π rad)x(1.8π rad)
+		grados = 324°
 
 ##### 14. Una onda seno tiene un pico positivo en 75° y otro con un pico positivo en 100°. ¿Cuánto se desfasa cada onda seno con respecto a la referencia de 0°? ¿Cuál es el ángulo de fase entre estas ondas?
+
+	
 
 ##### *SECCIÓN 11-5 	 La fórmula de la onda seno*
 
