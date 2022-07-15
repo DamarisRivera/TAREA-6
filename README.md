@@ -579,7 +579,7 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ## 4. Video
 
-
+https://youtu.be/B_j_6K5aIj4
 
 ## 5. Conclusiones
 
