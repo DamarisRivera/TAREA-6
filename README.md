@@ -328,33 +328,64 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 ##### 8. Un capacitor de mica tiene placas cuadradas de 3.8 cm por lado con una separación entre ellas de 2.5 mils. ¿Cuál es la capacitancia?
 
 	A = lxl = 3.8*3.8 = 14.44 cm^2 = 0.001444 m^2
-	C = [A*Er(8.85x10^(-12) F/m)]/d
-	C = [0.001444*5.0(8.85x10^(-12)F/m)]/6.35e^(-5) = 1.49e^(-12)
+	C = [A*εr(8.85x10^(-12) F/m)]/d
+	C = [0.001444*5.0(8.85x10^(-12)F/m)]/6.35e^(-5) = 1.49e^(-12) F
 
-##### 10. Un estudiante desea construir un capacitor de 1 F con dos placas cuadradas para un proyecto de feria de las ciencias. Planea utilizar un dieléctrico de papel (er = 2.5) de 8 x 10^(-5) m de espesor. La feria de las ciencias se va a llevar a cabo en el “Astrodomo”. ¿Cabrá su capacitor en el “Astrodomo”? ¿De qué tamaño serían las placas si pudieran ser construidas?
+##### 10. Un estudiante desea construir un capacitor de 1 F con dos placas cuadradas para un proyecto de feria de las ciencias. Planea utilizar un dieléctrico de papel (εr = 2.5) de 8 x 10^(-5) m de espesor. La feria de las ciencias se va a llevar a cabo en el “Astrodomo”. ¿Cabrá su capacitor en el “Astrodomo”? ¿De qué tamaño serían las placas si pudieran ser construidas?
+
+	C = [A*εr(8.85x10^(-12) F/m)]/d
+	A = (1)(8x10^(-5))/(2.5)(8.85x10^(-12))
+	A = 3.6x10^(6) m^2
 
 ##### 12. A temperatura ambiente (25°C), se especifica que cierto capacitor sea de 1000 pF. El capacitor tiene coeficiente de temperatura negativo de 200 ppm/°C. ¿Cuál es su capacitancia a 75°C?
 
+	(75°C)(200 ppm/°C)/25°C = 600 ppm/°C
+	C = (75°C)(1000 pF)/25°C= 3000 pF
 
 ##### *SECCIÓN 12-2 	  Tipos de capacitores*
 
 ##### 14. En la construcción de un capacitor de hojas de mica y laminillas apiladas, ¿cómo se incrementa el área de placas?
 
+	Las laminillas metálicas forman la placa, con las laminillas alternas conectadas entre sí para incrementar el área de placas. Se utilizan más capas para incrementar el área de placas, y por tanto, se incrementa la capacitancia.
+
 ##### 16. Muestre cómo conectar un capacitor electrolítico de un lado a otro de R2 entre los puntos A y B en la figura 12-66.
 
 ![image](https://user-images.githubusercontent.com/105671763/178656190-349a42d9-a1b4-4515-8997-0f258295824b.png)
+![image](https://user-images.githubusercontent.com/105671763/179152322-7c135717-04bf-4712-800b-9a842a9d6648.png)
 
 ##### 18. Identifique las partes del capacitor de disco de cerámica mostrado en la vista de corte de la figura 12-67. 
 
-![image](https://user-images.githubusercontent.com/105671763/178656289-de482eb9-2d02-4f5b-8172-d6fb9b58704c.png)
+![image](https://user-images.githubusercontent.com/105671763/179153624-5f41881c-19f1-4092-8e38-026a45499d15.png)
 
 ##### *SECCIÓN 12-3 	  Capacitores en serie*
 
 ##### 20. Cinco capacitores de 1000 pF están en serie. ¿Cuál es la capacitancia total?
 
+	CT = C/n
+	CT = 1000 pF/5
+	CT = 200 pF
+
 ##### 22. Para cada circuito de la figura 12-69, determine el voltaje entre las terminales de cada capacitor. 
 
 ![image](https://user-images.githubusercontent.com/105671763/178656428-2e1327d1-7930-4211-84c8-c30f3f23dba7.png)
+
+	(a) CT = 1/((1/1 μF)+(1/2.2 μF)) = 0.6875 μF
+	    Vx = (CT*VT)/Cx
+	    V1 = (0.6875 μF*10 V)/1 μF = 6.875 V
+	    V2 = (0.6875 μF*10 V)/2.2 μF = 3.125 V	    
+	
+	(b) CT = 1/((1/100 pF)+(1/560 pF)+(1/390 pF)) = 69.69 pF
+	    Vx = (CT*VT)/Cx
+	    V1 = (69.69 pF*100 V)/100 pF = 69.69 V
+	    V2 = (69.69 pF*100 V)/560 pF = 12.445 V	
+	    V3 = (69.69 pF*100 V)/390 pF = 17.87 V
+	
+	(c) CT = 1/((1/10 μF)+(1/4.7 μF)+(1/47 μF)+(1/22 μF)) = 2.64 μF
+	    Vx = (CT*VT)/Cx
+	    V1 = (2.64 μF*30 V)/10 μF = 7.92 V
+	    V2 = (2.64 μF*30 V)/4.7 μF = 16.85 V	
+	    V3 = (2.64 μF*30 V)/47 μF = 1.69 V
+	    V4 = (2.64 μF*30 V)/22 μF = 3.6 V
 
 ##### 24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 mC. Determine el voltaje entre las terminales de cada capacitor.
 
