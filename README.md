@@ -314,21 +314,47 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ##### 34. La frecuencia de repetición de una forma de onda pulsante es de 2 kHz, y el ancho de pulso es de 1 ms. ¿Cuál es el ciclo de trabajo en porcentaje?
 
-	
+	CT% = (tw/T)100%
+	CT% = (1 μs/500 μs)100%
+	CT% = 0.2 %
 
 ##### 36. Determine el ciclo de trabajo de cada una de las formas de onda mostradas en la figura 11-86.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634707-d40e6429-b2b5-4ded-835b-ac8d39936e34.png)
 
+	(a) CT% = (tw/T)100%
+	    CT% = (1 μs/4 μs)100%
+	    CT% = 25 %
+	
+	(b) CT% = (tw/T)100%
+	    CT% = (20 ms/30 ms)100%
+	    CT% = 66.7 %
+
 ##### 38. ¿Cuál es la frecuencia de cada una de las formas de onda mostradas en la figura 11-86?
 
 ![image](https://user-images.githubusercontent.com/105671763/178634748-08f35189-5680-4026-8b33-a2312ba31905.png)
+
+	(a) f = 1/T
+	    f = 1/4 μs
+	    f = 250 kHz
+	
+	(b) f = 1/T
+	    f = 1/30 ms
+	    f = 33.3 Hz
 
 ##### 40. Una forma de onda no sinusoidal llamada escalonada se muestra en la figura 11-88. Determine su valor promedio.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634788-c8c56450-ee82-48d6-b4b3-3244089e172a.png)
 
+	Vp = A/T
+	v(AVG) = [(0+1+2+3+4+5+6)v*(1)ms]/7ms
+	v(AVG) = 3 V
+
 ##### 42. ¿Cuál es la frecuencia fundamental de la onda cuadrada mencionada en el problema 41?
+
+	f = 1/T
+    	f = 1/40 μs
+    	f = 25 kHz
 
 ##### *SECCIÓN 11-10 	  El osciloscopio*
 
