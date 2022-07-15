@@ -1,12 +1,11 @@
 # TAREA-6
 PARCIAL 2
 
-
 #### UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
 ##### CIRCUITOS ELÉCTRICOS
 ##### NOMBRE: Damaris Rivera.
 ##### NRC: 7318                                                                                                                  
-##### FECHA:  –  – 2022
+##### FECHA: 07 – 15 – 2022
 
 ## 1. Objetivos 
   
@@ -222,49 +221,100 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ##### 20. Repita el problema 19 para el caso en que la onda seno A va 30° delante de la onda seno B. 
 
-	
+	Vinst1 = Vp*sen θ = 15*sen(60°) = 13 v
+	Vinst2 = Vp*sen θ = 15*sen(75°) = 14.5 v
+	Vinst3 = Vp*sen θ = 15*sen(120°) = -13 v
+	Vinst4 = Vp*sen θ = 15*sen(210°) = -7.5 v
+	Vinst5 = Vp*sen θ = 15*sen(230°) = -11.5 v
+	Vinst6 = Vp*sen θ = 15*sen(330°) = -7.5 v
 
 ##### *SECCIÓN 11-6 	  Introducción a los fasores*
 
 ##### 22. Trace un diagrama fasorial para representar las ondas seno de la figura 11-78 con respecto a la referencia de 0°.
 
 ![image](https://user-images.githubusercontent.com/105671763/178633761-7d3c39fc-8529-4be3-b6de-1d07659e5fde.png)
+![image](https://user-images.githubusercontent.com/105671763/179164585-47bc4d67-59fe-4a7c-86cf-21c3699c00f6.png)
 
 ##### 24. Determine la frecuencia para cada velocidad angular:
 
 	(a) 60 rad/s 
+	    W = 2πf
+	    f = W/2π
+	    f = 60 rad/s /2π
+	    f = 9.55 Hz
+	    
 	(b) 360 rad/s 
+	    W = 2πf
+	    f = W/2π
+	    f = 360 rad/s /2π
+	    f = 57.3 Hz
+	    
 	(c) 2 rad/s 
+	    W = 2πf
+	    f = W/2π
+	    f = 2 rad/s /2π
+	    f = 0.32 Hz
+	    
 	(d) 1256 rad/s
+	    W = 2πf
+	    f = W/2π
+	    f = 1256 rad/s /2π
+	    f = 199.9 Hz
 
 ##### *SECCIÓN 11-7 	  Análisis de circuitos de ca*
 
 ##### 26. Se aplica un voltaje sinusoidal al circuito resistivo de la figura 11-80. Determine los valores siguientes:
 
-	(a) Irms
-	(b) Iprom
-	(c) Ip
-	(d) Ipp
-	(e) i en el pico positivo
-
 ![image](https://user-images.githubusercontent.com/105671763/178634381-53f0dc5e-282b-4b78-aace-6dcc5aee2a0e.png)
+
+	(a) Irms
+	    Irms = Vs/Rtot
+	    Irms = 10 V/1000
+	    Irms = 0.01 A
+	
+	(b) Iprom
+	    Iprom = 0.671(10)
+	    Iprom = 6.71 A
+	
+	(c) Ip
+	    Ip = 10 A
+	
+	(d) Ipp
+	    Ipp = 2*10
+	    Ipp = 20 A
+	
+	(e) i en el pico positivo
+	    Ip = 10 A
 
 ##### 28. Determine el voltaje rms entre los extremos de R3 en la figura 11-82.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634509-09c75764-6716-4f0b-874f-92c6779c051f.png)
 
+	Ipp = Vpp/R1 = 16 V/1 kΩ = 16 mA
+	Irms = 0.3535*Ipp = 0.3535*16 mA = 5.66 mA
+	VR4 = Irms*R4 = 5.66 mA*560 Ω = 3.17 rms
+	Vs = VR1 + VR2 + VR3 + VR4
+	VR3 = 21.21 - 5.66 - 5 - 3.17 = 7.38 v
+
 ##### *SECCIÓN 11-8 	  Voltajes superpuestos de cd y de ca*
 
 ##### 30. ¿Cuánto voltaje de cd se debe agregar a una onda seno de 3 V rms para hacer el voltaje resultante no alterno (valores negativos)?
+
+	Los valores deberán ser menor -3.
 
 ##### 32. La figura 11-83 muestra una fuente de voltaje sinusoidal dispuesta en serie con una fuente de cd. Efectivamente, los dos voltajes están superpuestos. Determine la disipación de potencia en el resistor de carga.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634602-45346f94-f9b5-4fe0-894f-10fa506209f9.png)
 
+	Imax = Vmax/RT = (200 v + 150 v)/100 Ω = 3.5 A
+	VCD = (RL/RT)V = (100 Ω/100 Ω)200 v = 200 V
+	PR = Imax*VCD = (3.5 A)(200 V) = 700 W
 
 ##### *SECCIÓN 11-9 	  Formas de onda no sinusoidales*
 
 ##### 34. La frecuencia de repetición de una forma de onda pulsante es de 2 kHz, y el ancho de pulso es de 1 ms. ¿Cuál es el ciclo de trabajo en porcentaje?
+
+	
 
 ##### 36. Determine el ciclo de trabajo de cada una de las formas de onda mostradas en la figura 11-86.
 
@@ -403,18 +453,30 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178656657-3f5360f9-b818-42cc-806c-0762804254b4.png)
 
+	(a) 
+	(b) 
+	(c) 
+
 ##### *SECCIÓN 12-5 	  Capacitores en circuitos de cd*
 
 ##### 30. Determine la constante de tiempo para cada una de las combinaciones en serie:
 
 	(a) R = 100 Ω, C = 1 μF
+	    τ = RC = (100 Ω)(1.0 e^(-6) F) = 0.25 s
+	
 	(b) R = 10 MΩ, C = 47 pF
+	    τ = RC = (10000000 Ω)(4.7e^(-11) F) = 785 s
+	
 	(c) R = 4.7 kΩ, C = 0.0047 μF
+	    τ = RC = (4700 Ω)(4.7e^(-9) F) = 2.73 s
+	
 	(d) R = 1.5 MΩ, C = 0.01 μF
+	    τ = RC = (1500000 Ω)(1.0 e^(-8)F) = 503 s
 
 ##### 32. En el circuito de la figura 12-74, inicialmente el capacitor está descargado. Determine el voltaje presente en el capacitor en los instantes posteriores al cierre del interruptor:
 
 	(a) 10 μs
+	    v = Vi*e^(-t/RC) = 15*e^()
 	(b) 20 μs
 	(c) 30 μs
 	(d) 40 μs
@@ -484,7 +546,8 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ## 5. Conclusiones
 
-
+- Leyendo y comprendiendo previamente los conceptos que se va a utilizar en la resolución de ejercicios nos permite resolverlos de manera más rápida y también nos permite saber como usarlo en la parte práctica.
+- Los ejercicios resueltos nos permitió prácticar más los conceptos aprendidos y afianzar los conceptos enseñados en clase.  
 
 ## 6. Bibliografía
 
