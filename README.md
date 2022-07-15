@@ -146,32 +146,83 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ##### 14. Una onda seno tiene un pico positivo en 75° y otro con un pico positivo en 100°. ¿Cuánto se desfasa cada onda seno con respecto a la referencia de 0°? ¿Cuál es el ángulo de fase entre estas ondas?
 
+	La primera onda seno se desafasa 75° respecto a la referencisa de 0° y la segunda onda se desafasa 100° respecto a la referencisa de 0°. EL ángulo de fase entre las dos ondas es de 90°.
 	
-
 ##### *SECCIÓN 11-5 	 La fórmula de la onda seno*
 
 ##### 16. Cierta onda seno tiene un cruce por cero hacia positivo en 0° y valor rms de 20 V. Calcule su valor instantáneo en cada uno de los siguientes ángulos:
 
+	Vrms = 0.707*Vp
+	Vp = Vrms/0.707 = 20/0.707 = 28.29 v
+	
 	(a) 15°
+		Vinst = Vp*sen θ = 28.29*sen(15°)
+		Vinst = 7.32 v
+		
 	(b) 33°
+		Vinst = Vp*sen θ = 28.29*sen(33°)
+		Vinst = 15.41 v
+		
 	(c) 50°
+		Vinst = Vp*sen θ = 28.29*sen(50°)
+		Vinst = 21.67 v
+		
 	(d) 100°
+		Vinst = Vp*sen θ = 28.29*sen(100°)
+		Vinst = 27.86 v
+		
 	(e) 70°
+		Vinst = Vp*sen θ = 28.29*sen(70°)
+		Vinst = 26.58 v
+		
 	(f) 145°
+		Vinst = Vp*sen θ = 28.29*sen(145°)
+		Vinst = 16.23 v
+		
 	(g) 250°
+		Vinst = Vp*sen θ = 28.29*sen(250°)
+		Vinst = -26.58 v
+		
 	(h) 325°
+		Vinst = Vp*sen θ = 28.29*sen(325°)
+		Vinst = -16.23 v
 
 ##### 18. Para una onda seno referida a 0° con valor rms de 6.37 V, determine el valor instantáneo en cada uno de los puntos siguientes:
 
+	Vrms = 0.707*Vp
+	Vp = Vrms/0.707 = 6.37/0.707 = 9 v
+	
 	(a) π/8 rad 
+		Vinst = Vp*sen θ = 9*sen(π/8)
+		Vinst = 3.44 v
+		
 	(b) π/4 rad 
+		Vinst = Vp*sen θ = 9*sen(π/4)
+		Vinst = 6.36 v
+	
 	(c) π/2 rad 
+		Vinst = Vp*sen θ = 9*sen(π/2)
+		Vinst = 9 v
+		
 	(d) 3π/4 rad
-	(e) π rad 
-	(f) 3π/2 rad 
+		Vinst = Vp*sen θ = 9*sen(3π/4)
+		Vinst = 6.36 v
+		
+	(e) π rad
+		Vinst = Vp*sen θ = 9*sen(π)
+		Vinst = 0 v
+		
+	(f) 3π/2 rad
+		Vinst = Vp*sen θ = 9*sen(3π/2)
+		Vinst = -9 v
+		
 	(g) 2π rad
+		Vinst = Vp*sen θ = 9*sen(2π)
+		Vinst = 0 v
 
 ##### 20. Repita el problema 19 para el caso en que la onda seno A va 30° delante de la onda seno B. 
+
+	
 
 ##### *SECCIÓN 11-6 	  Introducción a los fasores*
 
@@ -243,19 +294,42 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ##### 2. Transforme los siguientes valores de microfarads a picofarads:
 
+	1 μF = 1x10^(6) pF
+
 	(a) 0.1 μF
+		(0.1 μF)(1x10^(6)) = 100000 pF
+		
 	(b) 0.0025 μF
+		(0.0025 μF)(1x10^(6)) = 2500 pF
+		
 	(c) 4.7 μF
+		(4.7 μF)(1x10^(6)) = (4.7x10^(-6) F)/(1x10^(-12)) = 4700000 pF
 	
 ##### 4. Transforme los siguientes valores de farads a microfarads;
 
+	1 F = 1x10^(6) μF
+	
 	(a) 0.0000001 F 
+		(0.0000001 F)(1x10^(6))= 0.1 μF 
+		
 	(b) 0.0022 F 
+		(0.0022 F)(1x10^(6))= 2200 μF 
+		
 	(c) 0.0000000015 F
+		(0.0000000015 F)(1x10^(6))= 1.5x10^(-3) μF 
 	
 ##### 6. ¿Qué tamaño de capacitor es capaz de guardar 10 mJ de energía con 100 V entre sus placas?
 
+	W = (1/2)*C*V^2
+	C = 2(W/V^2)
+	C = 2(0.01 J)/(100 V)^2)
+	C = 2x10^(-6) F
+	
 ##### 8. Un capacitor de mica tiene placas cuadradas de 3.8 cm por lado con una separación entre ellas de 2.5 mils. ¿Cuál es la capacitancia?
+
+	A = lxl = 3.8*3.8 = 14.44 cm^2 = 0.001444 m^2
+	C = [A*Er(8.85x10^(-12) F/m)]/d
+	C = [0.001444*5.0(8.85x10^(-12)F/m)]/6.35e^(-5) = 1.49e^(-12)
 
 ##### 10. Un estudiante desea construir un capacitor de 1 F con dos placas cuadradas para un proyecto de feria de las ciencias. Planea utilizar un dieléctrico de papel (er = 2.5) de 8 x 10^(-5) m de espesor. La feria de las ciencias se va a llevar a cabo en el “Astrodomo”. ¿Cabrá su capacitor en el “Astrodomo”? ¿De qué tamaño serían las placas si pudieran ser construidas?
 
@@ -347,17 +421,29 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178657896-5517e393-8f9d-473b-858d-63b31cf7ae55.png)
 
+	
+
 ##### 50. Si en la figura 12-81 C4 se abriera, determine los voltajes que se medirían entre las terminales de los otros capacitores. 
 
 ![image](https://user-images.githubusercontent.com/105671763/178657980-f7bed923-63c6-4120-b433-e66db1a0a04e.png)
+
+	
 
 ##### *SECCIÓN 12-7 	  Aplicaciones de los capacitores*
 
 ##### 52. Idealmente, ¿cuál deberá ser la reactancia de un capacitor de desvío para eliminar un voltaje de ca de 10 kHz en un punto dado en un circuito amplificador?
 
+	Xc = 1/2πfC 
+	Xc = 1/2π*10*1
+	Xc = 0.015 kΩ
+
 ##### *SECCIÓN 12-8 	   Circuitos de capacitor conmutado*
 
 ##### 54. En un circuito de capacitor conmutado, el capacitor de 100 pF se conmuta a una frecuencia de 8 kHz. ¿Qué valor de resistor se emula?
+
+	R = 1/fC 
+	R = 1/(8 kHz*100 pF)
+	R = 1250000 Ω
 
 ## 4. Video
 
