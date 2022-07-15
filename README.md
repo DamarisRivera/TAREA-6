@@ -478,7 +478,12 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178656492-ec680335-3901-4076-8379-f16a850529d3.png)
 
-	
+	QT = Q1 = Q2 = Q3 = Q4 = 10 μc
+	Vx = Qx/Cx
+	V1 = 10 μC/4.7 μF = 2.13 V
+	V2 = 10 μC/1 μF = 10 V
+	V3 = 10 μC/2.2 μF = 4.55 V
+	V4 = 10 μC/10 μF = 1 V
 
 ##### *SECCIÓN 12-4 	  Capacitores en paralelo*
 
@@ -486,13 +491,24 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178656595-b56e8b9e-24a4-443a-98cc-30e718ae7a76.png)
 
+	(a) CT = 4 pF + 10 pF + 1000 pF
+	    CT = 1057 pF
+	
+	(b) CT = 0.1 μF + 0.001 μF + 0.02 μF 
+	    CT = 0.121 μF
+
 ##### 28. ¿Cuál es el voltaje entre los nodos A y B en cada circuito de la figura 12-72?
 
 ![image](https://user-images.githubusercontent.com/105671763/178656657-3f5360f9-b818-42cc-806c-0762804254b4.png)
 
-	(a) 
-	(b) 
-	(c) 
+	(a) Como el voltaje de un capacitor paralelo es igual al voltaje de la fuente, el voltaje es:
+	    VAB = 5 V
+	
+	(b) Como el voltaje de un capacitor paralelo es igual al voltaje de la fuente, el voltaje es:
+	    VAB = 10 V
+	    
+	(c) Como el voltaje de un capacitor paralelo es igual al voltaje de la fuente, el voltaje es:
+	    VAB = 10 V
 
 ##### *SECCIÓN 12-5 	  Capacitores en circuitos de cd*
 
@@ -513,29 +529,62 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 ##### 32. En el circuito de la figura 12-74, inicialmente el capacitor está descargado. Determine el voltaje presente en el capacitor en los instantes posteriores al cierre del interruptor:
 
 	(a) 10 μs
-	    v = Vi*e^(-t/RC) = 15*e^()
+	    v = Vf(1-*e^(-t/RC)) 
+	    v = 9.48 V
+	    
 	(b) 20 μs
+	    v = Vf(1-*e^(-t/RC)) 
+	    v = 13 V
+	    
 	(c) 30 μs
+	    v = Vf(1-*e^(-t/RC)) 
+	    v = 14.3 V
+	    
 	(d) 40 μs
+	    v = Vf(1-*e^(-t/RC)) 
+	    v = 14.7 V
+	    
 	(e) 50 μs
+	    v = Vf(1-*e^(-t/RC)) 
+	    v = 14.9 V
 	
 ##### 34. Repita el problema 32 con los siguientes intervalos de tiempo:
 
 	(a) 2 μs
+	    v = Vf(1-e^(-t/RC))
+	    v = 2.772 v
+	    
 	(b) 5 μs
+	    v = Vf(1-e^(-t/RC))
+	    v = 5.90 V
+	    
 	(c) 15 μs
-	
+	    v = Vf(1-e^(-t/RC))
+	    v = 11.7 V 
+	    
 ##### 36. Derive la fórmula para determinar el tiempo en cualquier punto de una curva de voltaje exponencial creciente. Use esta fórmula para calcular el tiempo en el cual el voltaje que aparece en la figura 12-76 llega a 6 V después de cerrar el interruptor.
 
 ![image](https://user-images.githubusercontent.com/105671763/178657434-aa4728f1-49c5-4ac7-9065-2aef8cc21a00.png)
+
+	t = -RCln(v/Vi)
+	t = -22 μs*ln(6/12)
+	t = 15.2 μs	
 
 ##### 38. ¿Cuánto tiempo requiere el capacitor C para descargarse a 3 V en la figura 12-75?
 
 ![image](https://user-images.githubusercontent.com/105671763/178657483-3f0558c1-e1a9-4133-98db-b4d40b96c721.png)
 
+	t = -RCln(v/Vi)
+	t = -1.5 ms * ln(3/25)
+	t = 3.18 ms
+
 ##### * 40. En la figura 12-78, inicialmente el capacitor está descargado. En el instante t = 10 ms después de que se cierra el interruptor, el voltaje instantáneo en el capacitor es de 7.2 V. Determine el valor de R.
 
 ![image](https://user-images.githubusercontent.com/105671763/178657555-dd42b39d-70ea-4d50-8980-97337e156ec9.png)
+
+	t = -RCln(v/Vi)
+	R = (-10 μs)/(1000 pF*ln(1-7.2/10))
+	R = 7.86 kΩ
 
 ##### *SECCIÓN 12-6 	  Capacitores en circuitos de ca*
 
@@ -543,11 +592,45 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178657674-e33d1cf6-9bae-4f62-b724-3bcf9e75a82d.png)
 
+	(a) XcT = 1/2π*f*C = 3.39 kΩ
+	
+	(b) XcT = 1/2π*f*C = 6.37 kΩ
+	
+	(c) XcT = 1/2π*f*C = 5.31 kΩ
+
 ##### 44. En cada circuito de la figura 12-80, ¿qué frecuencia se requiere para producir una Xc de 100 Ω? ¿Una Xc de 1 kΩ?
 
 ![image](https://user-images.githubusercontent.com/105671763/178657759-0726db58-2e33-4288-a799-b3300a7fdd88.png)
 
+	(a) Para Xc = 100 Ω
+	    f = 1/2π*Xc*C = 1/(2π*108 Ω)(0.047 μF)
+	    f = 33.87 kHz
+	
+	    Para Xc = 1 kΩ
+	    f = 1/2π*Xc*C = 1/(2π*1 kΩ)(0.047 μF)
+	    f = 3.39 kHz
+	
+	(b) Para Xc = 100 Ω
+	    f = 1/2π*Xc*C = 1/(2π*100 Ω)(25 μF)
+	    f = 63.7 Hz
+	
+	    Para Xc = 1 kΩ
+	    f = 1/2π*Xc*C = 1/(2π*1 kΩ)(25 μF)
+	    f = 6.37 Hz
+	    
+	(c) Para Xc = 100 Ω
+	    f = 1/2π*Xc*C = 1/(2π*100 Ω)(0.5 μF)
+	    f = 3.187 kHz
+	
+	    Para Xc = 1 kΩ
+	    f = 1/2π*Xc*C = 1/(2π*1 kΩ)(0.5 μF)
+	    f = 318 Hz
+	
 ##### 46. Se aplica un voltaje de 10 kHz a un capacitor de 0.0047 μF, y se mide una corriente rms de 1 mA. ¿Cuál es el valor del voltaje?
+
+	Vrms = Irms*Xc
+	Vrms = (1 mA)(3.39 kΩ)
+	Vrms = 3.39 v
 
 ##### 48. Determine el voltaje de ca entre las terminales de cada capacitor y la corriente en cada rama del circuito de la figura 12-81. 
 
