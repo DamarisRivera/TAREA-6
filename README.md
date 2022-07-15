@@ -387,9 +387,11 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 	    V3 = (2.64 μF*30 V)/47 μF = 1.69 V
 	    V4 = (2.64 μF*30 V)/22 μF = 3.6 V
 
-##### 24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 mC. Determine el voltaje entre las terminales de cada capacitor.
+##### 24. La carga total guardada por los capacitores en serie de la figura 12-70 es de 10 μC. Determine el voltaje entre las terminales de cada capacitor.
 
 ![image](https://user-images.githubusercontent.com/105671763/178656492-ec680335-3901-4076-8379-f16a850529d3.png)
+
+	
 
 ##### *SECCIÓN 12-4 	  Capacitores en paralelo*
 
