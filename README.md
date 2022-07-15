@@ -553,13 +553,31 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 
 ![image](https://user-images.githubusercontent.com/105671763/178657896-5517e393-8f9d-473b-858d-63b31cf7ae55.png)
 
-	
+	C(5,6) = 1/((1/0.01 μF)+(1/0.015 μF)) = 0.006 μF
+	C(4,5,6) = 0.047 μF + 0.006 μF = 0.053 μF
+	C(2,3,4,5,6) = 0.022 μF + 0.015 μF + 0.053 μF = 0.03369 μF
+	CT = 0.008 μF
+		
+	Corrientes:
+	Ic2 = 2.29/24.1 = 95 μA
+	Ic3 = 1.78/35.4 = 50.4 μA
+	Ic4 = 505/11.3 = 44.7 μA
+	Ic5 = 303/53.1 = 5.7 μA
+	Ic6 = 303/53.1 = 5.7 μA
 
 ##### 50. Si en la figura 12-81 C4 se abriera, determine los voltajes que se medirían entre las terminales de los otros capacitores. 
 
 ![image](https://user-images.githubusercontent.com/105671763/178657980-f7bed923-63c6-4120-b433-e66db1a0a04e.png)
 
-	
+	C(3,5,6) = 1/((1/0.015)+(1/0.01)+(1/0.015)) = 0.0043 μF
+	C(2,3,5,6) = 0.022 + 0.0043 = 0.03 μF
+	CT = 0.0073 μF
+	V1 = (0.00725 μF/0.01 μF)10 v = 7.25v
+	V2 = (0.00725 μF/0.0263 μF)10 v = 2.76 v
+	V3 = (0.0043 μF/0.015 μF) = 0.70 v
+	V4 = 1.98 v
+	V5 = (0.0043 μF/0.01 μF)2.76 v = 1.19v
+	V6 = (0.0043 μF/0.015 μF)2.76 v = 0.79 v
 
 ##### *SECCIÓN 12-7 	  Aplicaciones de los capacitores*
 
