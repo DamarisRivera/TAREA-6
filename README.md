@@ -361,6 +361,17 @@ Analizar y resolver problemas utilizando los conocimientos de los capítulos res
 ##### 44. Con base en los ajustes del instrumento y en un examen de la pantalla del osciloscopio y de la tarjeta prototipo mostrados en la figura 11-90, determine la frecuencia y el valor pico de las señales de entrada y salida. La forma de onda mostrada es el canal 1. Trace la forma de onda del canal 2 como aparecería en el osciloscopio con los ajustes indicados.
 
 ![image](https://user-images.githubusercontent.com/105671763/178634957-1968cd96-25c0-4648-a37e-9c32e1a3cb22.png)
+![image](https://user-images.githubusercontent.com/105671763/179174550-f8df3dbb-143e-4859-9f90-dcc184361189.png)
+
+	Valores de entrada
+	Vp = (1 div)(5 v/div) = 5 V
+	T = (2 div)(0.1 ms/div) = 200 μs
+	f = 1/200 μs = 5 kHz
+	
+	Valores de Salida
+	RT = 883 Ω 
+	Vp = (4700  Ω/470  Ω+560 Ω)(323 Ω/883 Ω)(5 v) = 835 mV
+	f = 1/200 μs = 5 kHz
 
 #### CAPITULO 12 
 
